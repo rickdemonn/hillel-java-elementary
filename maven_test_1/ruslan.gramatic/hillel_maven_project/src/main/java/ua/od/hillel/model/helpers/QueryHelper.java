@@ -7,7 +7,7 @@ import java.sql.*;
  */
 public abstract class QueryHelper {
     public static final String MYSQL_DRIVER = "com.mysql.jdbc.Driver";
-    public static final String MYSQL_URL = "jdbc:mysql://localhost/?user=root&password=";
+    public static final String MYSQL_URL = "jdbc:mysql://localhost/?user=root&password=root";
     public static final String MYSQL_DATABASE_URL = "jdbc:mysql://localhost/card_battle_rts?user=root&password=";
 
     static {
